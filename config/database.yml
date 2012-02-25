@@ -20,8 +20,10 @@ development:
 #  pool: 5
 #  timeout: 5000
 #
-#production:
-#  adapter: sqlite3
-#  database: db/production.sqlite3
-#  pool: 5
-#  timeout: 5000
+production:
+  adapter: mysql
+  database: origami_hub_prod
+  username: root
+  password:
+  pool: 5
+  timeout: 5000
